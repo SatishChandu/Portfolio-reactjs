@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Devloper", "Web Designer", "UI/UX designer"];
+    const toRotate = ["Web Devloper", "Frontend Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -47,7 +47,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hi I'm webdecoded`} <span className="wrap">{text}</span></h1>
+                        <h1>{`Hi I'm Satish Kumar Chandu`} <span className="wrap">{text}</span></h1>
                         <p>Portfolio has to be set up in a way where an user got to know us in detail.</p>
                         <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}></ArrowRightCircle></button>
                     </Col>
