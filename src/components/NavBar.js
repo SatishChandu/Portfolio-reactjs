@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+  import { useState, useEffect } from 'react';
 import { Navbar, Container,  Nav } from 'react-bootstrap';
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/Latest_Passport_Photo.jpg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -33,7 +33,7 @@ export const NavBar = () => {
       <Container>
         <Navbar.Brand href="#home">
             <img src={logo} alt="Logo" />
-        </Navbar.Brand>
+        </Navbar.Brand> 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
