@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Web Devloper", "Web Designer", "UI/UX designer"];
+    const toRotate = ["Web Devloper", "Front End Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
